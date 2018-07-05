@@ -1,0 +1,12 @@
+applesimutils
+gradle
+libyaml
+nvm
+pcre2
+ruby
+fish
+kubernetes-cli
+make
+openssl
+readline
+swiftlint
