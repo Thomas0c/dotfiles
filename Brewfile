@@ -10,5 +10,4 @@ make
 openssl
 readline
 swiftlint
-fish
 terraform
