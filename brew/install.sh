@@ -39,9 +39,12 @@ nvm install 10.13.0
 nvm alias default 10.13.0
 
 # Install applications
-brew cask install hyper
+brew cask install --appdir="/Applications" visual-studio-code
+brew cask install --appdir="/Applications" hyper
 brew cask install --appdir="/Applications" 1password
 brew cask install --appdir="/Applications" slack
-brew cask install brave
+brew cask install --appdir="/Applications" brave
+brew cask install --appdir="/Applications" daisydisk
+brew cask install --appdir="/Applications" paw
 
 brew cleanup
