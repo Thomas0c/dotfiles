@@ -4,7 +4,7 @@
     "workbench.colorTheme": "Atom One Dark",
     "workbench.startupEditor": "newUntitledFile",
     "launch": {
-        "runtimeExecutable": "/Users/thomas/.nvm/versions/node/v8.9.0/bin/node",
+        "runtimeExecutable": "/Users/thomas/.nvm/versions/node/v10.13.0/bin/node",
     },
     "java.errors.incompleteClasspath.severity": "ignore",
     "files.exclude": {
