@@ -1,7 +1,7 @@
 {
-    "editor.fontFamily": "Operator Mono, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
     "editor.renderWhitespace": "all",
-    "workbench.colorTheme": "Atom One Dark",
+    "workbench.colorTheme": "One Dark Pro",
     "workbench.startupEditor": "newUntitledFile",
     "launch": {
         "runtimeExecutable": "/Users/thomas/.nvm/versions/node/v10.13.0/bin/node",
@@ -15,6 +15,13 @@
         "**/.DS_Store": true,
         "**/*.pyc": true,
         "**/node_modules": true,
-        "**/lib": true
       },
+    "typescript.suggest.autoImports": false,
+    "javascript.suggest.autoImports": false,
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "breadcrumbs.enabled": true,
+    "workbench.iconTheme": "vscode-icons",
+    "editor.fontLigatures": true,
+    "window.zoomLevel": 0,
+    "workbench.tree.indent": 20,
 }
