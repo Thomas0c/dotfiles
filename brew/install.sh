@@ -35,6 +35,9 @@ brew install gnupg
 brew install starship
 brew install mas
 
+brew tap homebrew/cask-fonts
+brew install --cask font-fira-code-nerd-font
+
 # Install and setup NVM
 brew install nvm
 mkdir ~/.nvm &&
