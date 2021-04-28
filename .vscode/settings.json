@@ -1,0 +1,55 @@
+{
+    "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
+    "editor.renderWhitespace": "all",
+    "workbench.colorTheme": "One Dark Pro",
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "launch": {
+        "runtimeExecutable": "/Users/thomas/.nvm/versions/node/v14.15.0/bin/node"
+    },
+    "java.errors.incompleteClasspath.severity": "ignore",
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/*.pyc": true,
+        "**/node_modules": true
+      },
+    "typescript.suggest.autoImports": false,
+    "javascript.suggest.autoImports": false,
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "breadcrumbs.enabled": true,
+    "workbench.iconTheme": "vscode-icons",
+    "editor.fontLigatures": true,
+    "window.zoomLevel": 1,
+    "workbench.tree.indent": 20,
+    "terminal.integrated.shell.osx": "/usr/local/bin/fish",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "java.semanticHighlighting.enabled": true,
+    "java.configuration.checkProjectSettingsExclusions": false,
+    "java.requirements.JDK11Warning": false,
+    "eslint.format.enable": true,
+    "eslint.lintTask.enable": true,
+    "keyboard.touchbar.enabled": false,
+    "telemetry.enableTelemetry": false,
+    "autoimport.doubleQuotes": false,
+    "prettier.tabWidth": 4,
+    "tailwindCSS.includeLanguages": {
+        "typescript": "tsx",
+        "javascript": "jsx"
+    },
+    "todo-tree.tree.showScanModeButton": false,
+    "todo-tree.general.tags": [
+        "BUG",
+        "HACK",
+        "FIXME",
+        "TODO",
+        "XXX",
+        "@TODO"
+    ],
+    "prettier.printWidth": 100,
+    "prettier.useTabs": true
+}

@@ -30,21 +30,39 @@ brew install ruby
 brew install make
 brew install openssl
 brew install readline
-brew install terraform
+brew install cocoapods
+brew install gnupg
+brew install starship
+brew install mas
 
 # Install and setup NVM
 brew install nvm
 mkdir ~/.nvm &&
-nvm install 10.13.0
-nvm alias default 10.13.0
+nvm install 14.15.0
+nvm alias default 14.15.0
+
+export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
 # Install applications
-brew cask install --appdir="/Applications" visual-studio-code
-brew cask install --appdir="/Applications" hyper
-brew cask install --appdir="/Applications" 1password
-brew cask install --appdir="/Applications" slack
-brew cask install --appdir="/Applications" brave
-brew cask install --appdir="/Applications" daisydisk
-brew cask install --appdir="/Applications" paw
+brew install --cask visual-studio-code
+brew install --cask hyper
+brew install --cask slack
+brew install --cask brave
+
+# Docker
+brew install --cask docker
+
+# Utils
+mas install 1091189122 #Bear
+mas install 441258766 #Magnet
+mas install 497799835 #Xcode
+mas install 470158793 #Keka
+brew install --cask 1password
+brew install --cask daisydisk
+brew install paw
+
+# Hobby
+brew install --cask spotify
 
 brew cleanup
+rm -f -r /Library/Caches/Homebrew/*
