@@ -12,7 +12,7 @@ $nodejs
 """
 
 scan_timeout = 0
-command_timeout = 0
+command_timeout = 2000
 add_newline = true
 
 [aws]
