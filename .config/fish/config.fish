@@ -5,6 +5,8 @@ set fish_greeting
 source ~/.config/fish/alias.fish
 source ~/.config/fish/gpg.fish
 
+set -gx GPG_TTY (tty)
+
 #set Visual Studio Code as default editor
 set -x --global EDITOR code
 
