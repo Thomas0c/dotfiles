@@ -13,10 +13,11 @@ abbr -a ga  git add
 abbr -a gcm git commit -m
 abbr -a gco git checkout
 abbr -a gp  git push
-abbr -a gl  git l
+abbr -a gl  git log
 abbr -a gd  git diff
 abbr -a gf  git fetch
 abbr -a gs  git status
+abbr -a gre git rebase
 
 # ls
 alias l='ls -l'
