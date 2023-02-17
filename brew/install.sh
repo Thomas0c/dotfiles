@@ -23,6 +23,7 @@ chsh -s /usr/local/bin/fish
 brew tap wix/brew
 brew install wix/brew/applesimutils
 brew install exa
+brew install --cask fig
 
 brew install gradle
 brew install libyaml
@@ -62,7 +63,7 @@ mas install 441258766 #Magnet
 mas install 497799835 #Xcode
 brew install --cask 1password
 brew install --cask daisydisk
-brew install rapidapi
+brew install --cask rapidapi
 
 # Hobby
 brew install --cask spotify
