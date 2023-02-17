@@ -41,8 +41,8 @@ brew install --cask font-fira-code-nerd-font
 # Install and setup NVM
 brew install nvm
 mkdir ~/.nvm &&
-nvm install 14.15.0
-nvm alias default 14.15.0
+nvm install 16.17.0
+nvm alias default 16.17.0
 
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
@@ -59,10 +59,9 @@ brew install --cask docker
 mas install 1091189122 #Bear
 mas install 441258766 #Magnet
 mas install 497799835 #Xcode
-mas install 470158793 #Keka
 brew install --cask 1password
 brew install --cask daisydisk
-brew install paw
+brew install rapidapi
 
 # Hobby
 brew install --cask spotify

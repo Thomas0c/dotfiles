@@ -1,0 +1,23 @@
+[alias]
+    st = status
+    co = checkout
+    ci = commit
+    br = branch
+    amend = commit --amend --no-edit
+    ds = diff --staged
+    cim = commit -m
+    undo = reset HEAD^1
+    rs = restore --staged
+[core]
+	editor = code -n -w
+	excludesfile = ~/.gitignore
+	ignorecase = false
+[user]
+	signingkey = 8FFDA3053C13292B
+	email = 8699937+Thomas0c@users.noreply.github.com
+	name = Thomas0c
+[commit]
+	gpgsign = true
+[pager]
+	diff = true
+	branch = true
