@@ -7,6 +7,8 @@ source ~/.config/fish/gpg.fish
 
 set -gx GPG_TTY (tty)
 
+set PATH /usr/local/bin $PATH
+
 #set Visual Studio Code as default editor
 set -x --global EDITOR code
 
@@ -36,17 +38,6 @@ set -g fish_color_valid_path --underline
 # Load all saved ssh keys
 /usr/bin/ssh-add -A ^/dev/null
 
-# Android export values
-set --export ANDROID $HOME/Library/Android;
-set --export ANDROID_HOME $ANDROID/sdk;
-set -gx PATH $ANDROID_HOME/tools $PATH;
-set -gx PATH $ANDROID_HOME/tools/bin $PATH;
-set -gx PATH $ANDROID_HOME/platform-tools $PATH;
-set -gx PATH $ANDROID_HOME/emulator $PATH;
-
-set --export JAVA_HOME /Applications/Android\ Studio.app/Contents/jre/jdk/Contents/Home;
-set -gx PATH $JAVA_HOME/bin $PATH;
-
 function fish_right_prompt
   # Timestamp
   echo (set_color 999) (date "+%H:%M:%S")
@@ -61,4 +52,4 @@ set -x NVM_DIR ~/.nvm
 nvm use default --silent
 rvm default
 
-starship init fish | source
+eval (starship init fish)

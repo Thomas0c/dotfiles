@@ -22,6 +22,7 @@ chsh -s /usr/local/bin/fish
 # Install brews
 brew tap wix/brew
 brew install wix/brew/applesimutils
+brew install exa
 
 brew install gradle
 brew install libyaml
